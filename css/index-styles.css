@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(50, 168, 82, 0.3);
+    
+}
+
+.main,
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+body {
+    text-align: center;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 66px;
+    font-family: Georgia, serif;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(4, 71%, 58%);
+}
