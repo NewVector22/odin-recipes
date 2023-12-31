@@ -3,13 +3,6 @@ body {
     
 }
 
-.main,
-li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0 20px;
-}
-
 body {
     text-align: center;
     font-size: 24px;
@@ -17,10 +10,28 @@ body {
 
 h1 {
     font-size: 66px;
-    font-family: Georgia, serif;
+    font-family: 'Sevillana', cursive, serif;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 40px;
+}
+
+.thumbnail {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    vertical-align: top;
 }
 
 a {
+    display: block;
     text-decoration: none;
     color: hsl(4, 71%, 58%);
+    height: 50px;
+    text-align: center;
 }
